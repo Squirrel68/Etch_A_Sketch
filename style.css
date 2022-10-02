@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.tool {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+
+.tool>*{  /* *:ca button ca input */
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* tach sang 2 ben */
+#save {
+    margin-left: auto ;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+canvas{
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
